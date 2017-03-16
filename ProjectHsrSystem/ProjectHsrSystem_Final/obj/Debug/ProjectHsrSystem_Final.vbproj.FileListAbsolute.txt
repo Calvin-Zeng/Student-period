@@ -1,0 +1,24 @@
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.dll
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.pdb
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.xml
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.Resources.resources
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.vbproj.GenerateResource.Cache
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.dll
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.xml
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.pdb
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.dll
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.pdb
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.xml
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.Resources.resources
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.vbproj.GenerateResource.Cache
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.dll
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.xml
+C:\Users\Jan.NB\Documents\Visual Studio 2010\Projects\test\ProjectHsrSystem_Final\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.pdb
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.dll
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.pdb
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\bin\ProjectHsrSystem_Final.xml
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.Resources.resources
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.vbproj.GenerateResource.Cache
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.dll
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.xml
+D:\Interview\ProjectHsrSystem\ProjectHsrSystem_Final\obj\Debug\ProjectHsrSystem_Final.pdb
