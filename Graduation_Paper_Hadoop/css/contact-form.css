@@ -1,0 +1,343 @@
+/* Form fields
+-------------------------------------------------------------- */
+
+/* 
+  Attribute selectors are used to differentiate the different types 
+  of input elements, but to support old browsers, you will have to 
+  add classes for each one. ".title" simply creates a large text  
+  field, this is purely for looks.
+ */
+ 
+  .commentbox {
+	width: 600px;
+
+	margin: 100px auto 0;
+	padding: 20px 0;
+	background: #f2f2f2;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+	box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+	
+	
+	
+	
+}
+  .commenttitle{
+	
+	font-weight:normal;
+	color:#000000;
+	letter-spacing:0pt;word-spacing:7pt;font-size:20px;
+	text-align:left;
+	font-family:arial, helvetica, sans-serif;
+	line-height:2;
+
+
+}
+ .form-wrapper {
+	width: 600px;
+	margin: 50px auto 0;
+	padding: 20px 0;
+	background: #f2f2f2;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+	box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+}
+ .form-wrapper form {
+	margin-top: auto	; 
+	padding: 0;
+	position: relative;
+	width: 100%;
+	text-align: left;
+}
+
+ .form-wrapper legend {
+	font-size: 1.5em;
+	width: 100%;
+}
+
+  .form-wrapper fieldset {
+	background: none; 
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	width: 100%;
+}
+
+.formfield,
+form .message {
+  margin: 1em 0 0;
+  position: relative;
+  clear: both;
+}
+
+input[type=text], 
+input[type=password],
+input.text, 
+input.title,
+textarea, 
+select {
+  background-color: #fff;
+  border: 1px solid #e0e0e0 !important;
+}
+
+input[type=text]:focus, 
+input[type=password]:focus,
+input.text:focus, 
+input.title:focus,
+textarea:focus, 
+select:focus {
+  border-color:#666;
+}
+
+input[type=text], 
+input[type=password],
+input.text,
+input.title,
+textarea {
+	margin: 0;
+}
+
+
+input[type=text], 
+input[type=password],
+input.text,
+input.title,
+label  {padding:12px;line-height: 1.2;}
+
+label {
+	padding-top: 13px;	
+}
+
+label.title,
+label.form_error {
+	position: absolute;
+}
+
+input.title   {font-size:1.5em;}
+textarea      {height: 200px; padding:12px;line-height: 1.4;}
+
+input[type=text], 
+input.text, 
+input.title,
+textarea, 
+.button,
+legend {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	zoom: 1;
+}
+
+/* Error messages
+-------------------------------------------------------------- */
+
+input.form_error,
+textarea.form_error {
+	background: #f9eced;
+	border: none;
+	color: #eb7373 !important; 
+}
+
+label.form_error {
+	opacity: 0.85;
+	display: block;
+	width: 150px;
+	margin-right: -183px;
+	color: #fff !important;
+	text-shadow: -1px 1px 0 rgba(0,0,0,0.20); 
+	font-size: 12px !important;
+	font-weight: bold;
+	top: 0;
+	right: 0;
+}
+
+input.form_error:hover,
+textarea.form_error:hover,
+input.form_error:focus,
+textarea.form_error:focus {
+	color: #f04040 !important; 
+}
+
+
+form .message {
+	display: none;
+}
+form .success    {
+	color: #264409; 
+	padding: .8em; 
+	margin-bottom: 1em; 
+	background: #E6EFC2; 
+	border: 2px solid #C6D880;
+}
+form .success a  {color: #264409;}
+
+
+/* 
+  This is to be used on forms where a variety of elements are 
+  placed side-by-side. Use the p tag to denote a line. 
+ */
+form.inline { line-height:3; }
+form.inline p { margin-bottom:0; }
+
+
+/* Skinning
+-------------------------------------------------------------- */
+#comment .formfield,
+#comment legend,
+#comment .message {
+	padding: 0 28px;
+}
+
+#comment legend {
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(255,255,255);
+	
+	text-shadow: 1px 1px 0 rgb(255,255,255);
+	
+	-webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.19) inset;
+	-moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.19) inset;
+	box-shadow: 0 -1px 0 rgba(0,0,0,0.19) inset;
+	
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#e6e6e6'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e6e6e6));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #e6e6e6); 
+	clear: both;
+}
+
+#comment input[type=text], 
+#comment input.text, 
+#comment input.title,
+#comment textarea, 
+#comment .button {
+	width: 100%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.30) inset;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.30) inset;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.30) inset;
+}
+
+#comment input[type=text],
+#comment input.text,
+#comment input.title,
+#comment textarea, 
+#comment label {
+	font-size: 1.2em;
+	color: #706f68;
+}
+
+#comment input[type=text]:hover, 
+#comment input.text:hover, 
+#comment input.title:hover,
+#comment textarea:hover {
+	color: #32302d;
+	border-color: #bfbfbf !important;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+}
+
+#comment input[type=text]:focus, 
+#comment input.text:focus, 
+#comment input.title:focus,
+#comment textarea:focus {
+	color: #32302d;
+	border-color: #94b6e6 !important;
+	-moz-box-shadow: 0 0 5px 0 #a2bbde;
+	-webkit-box-shadow: 0 0 5px 0 #a2bbde;
+	outline: none;
+}
+
+
+/* Form Icons
+-------------------------------------------------------------- */
+
+#comment input[type=text],
+#comment input.text, 
+#comment input.title {
+	padding-left: 43px;
+}
+#comment label.text {
+	padding-left: 44px;
+}
+
+#comment input[type=text],
+#comment input.text, 
+#comment input.title  {
+	background-image: url(../img/form_ico_set.png);
+	background-repeat: no-repeat;
+}
+
+/* Inactive State */
+#contact_who {background-position: -4px -33px;}
+#contact_sendto {background-position: -4px -140px;}
+#contact_subject {background-position: -4px -249px;}
+
+/* Hove/focus State */
+#contact_who:hover, 
+#contact_who:focus {background-position: 12px 3px;}
+#contact_sendto:hover, 
+#contact_sendto:focus {background-position: 12px -105px;}
+#contact_subject:hover, 
+#contact_subject:focus {background-position: 12px -213px;}
+
+/* Error State */
+#contact_who.form_error {background-position: -20px -69px;}
+#contact_sendto.form_error {background-position: -20px -176px;}
+#contact_subject.form_error {background-position: -20px -285px;}
+
+/* Button styling
+-------------------------------------------------------------- */
+
+#comment .button {
+	padding: 10px 0;
+	border: 1px solid #d8d8d8;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #45413b;
+	text-shadow: 1px 1px 0 rgb(255,255,255);
+	
+	background: #f6f6f6 url(/img/bkg-button-ie.gif) repeat-x;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #fff,  #ebebeb); 
+	
+	-webkit-box-shadow: 0 3px 2px #d9d9d9;
+	-moz-box-shadow: 0 3px 2px #d9d9d9;
+	box-shadow: 0 3px 2px #d9d9d9;
+}
+html>/**/body #comment .button {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#ebebeb'); 
+}
+
+
+#comment .button:hover {
+	background: #f6f6f6 url(/img/bkg-button-hover-ie.gif) repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#e5e5e5'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e5e5e5));
+	background: -moz-linear-gradient(top,  #fff,  #e5e5e5); 
+	border-color: #cdcdcd;
+}
+
+#comment .button:active {
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.20) inset;
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.20) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.20) inset;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+	margin-top: 3px;
+}
+
+
